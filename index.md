@@ -1,62 +1,90 @@
 ---
-title: "Block: [Theme] – [Block Name] ([Block Type])"
-description: "[Add a short block description]"
-theme: "[Add theme]" # AI, Generative, etc...
-block_name: "[Add block name]"
+title: "Block: AI – Image Generation"
+description: "Applied introduction to modern AI image generation workflows, from diffusion internals to prompting, fine-tuning, and ethics."
+theme: "AI" # AI, Generative, etc...
+block_name: "Image Generation"
 block_type: lecture # lecture, workshop,
 draft: false
 tags:
   - ai
-  - foundations
+  - image-generation
   - lecture
+  - diffusion
+  - prompting
+  - creative-practice
 ---
 
-> ➡️ Start here: [Usage](./usage.md)
+# Block: AI – Image Generation
 
-# Block: [Theme] – [Block Name] ([Block Type])
-
-_A short summary of this block goes here. Describe the main topic, context, and what students will learn or do in this block._
+This block is an intro to generative models, with a focus on image models. Students move from conceptual framing to practical image workflows: understanding diffusion pipelines, comparing model families, writing stronger prompts, applying fine-tuning methods, and critically evaluating ethical trade-offs.
 
 ## Learning Objectives
 
 By the end of this block, you will be able to:
 
-- Objective 1
-- Objective 2
-- Objective 3
+- Explain the core components of modern diffusion-based image generation
+- Compare diffusion with autoregressive, GAN, and transformer-based alternatives
+- Write effective prompts using structure, negative prompts, and weighting
+- Identify when to use LoRA, DreamBooth, and ControlNet for customization
+- Apply an iterative, ethics-aware workflow for creative image production
 
-## Content Overview
+## Session Timeline Overview
 
-- **Slides:**
-  - [presentation](#)
-  - Slides are managed in separate repos.
+- **Part 1 (Lecture + Discussion, ~30–40 min):**
+  - Creative process shifts with AI image generation
+  - Diffusion pipeline fundamentals
+  - Model-family comparison and practical trade-offs
+- **Part 2 (Hands-on Studio, ~60–75 min):**
+  - Prompt crafting + iteration loops
+  - Guided experiments with model settings and constraints
+  - Fine-tuning and controllability examples
+- **Debrief (10–15 min):**
+  - Ethics, authorship, and production reflection
 
-- **Content:**
-  - [Example content](./content/content_template.md)
-  - Add your own content files in [`content/`](./content/)
+## Part 1: Concepts + Technical Foundations
 
-- **Resources:**
-  - [Example resources folder](./resources/)
-  - Add your own resources in [`resources/`](./resources/)
+**Format:** Lecture + guided discussion
 
-- **Samples:**
-  - [Example samples folder](./samples/)
-  - Add your own samples in [`samples/`](./samples/)
+- **Slides**
+  - [PDF copy (to replace)](./slides/image_gen.pdf)
+- **Core notes:**
+  - [01 – Image Generation Overview](./content/01-image-generation-overview.md)
+  - [02 – Core Components: Diffusion Pipeline](./content/02-core-components-diffusion-pipeline.md)
+  - [03 – Alternatives to Diffusion](./content/03-alternatives-to-diffusion.md)
 
-## Preparation
+## Part 2: Studio Workflow + Creative Control
 
-- Preparation step 1
-- Preparation step 2
-- Preparation step 3
+**Format:** Hands-on workshop
+
+- **Practice notes:**
+  - [04 – Prompt Engineering Basics](./content/04-prompt-engineering-basics.md)
+  - [05 – Fine-Tuning Techniques](./content/05-fine-tuning-techniques.md)
+  - [06 – Practical Tools, Ethics, and Iterative Practice](./content/06-tools-ethics-and-practice.md)
+
+- **Beginner notebooks (Jupyter / Colab):**
+  - [01 – CLIP Intuition](./samples/01-clip-intuition.ipynb)
+  - [02 – First Image Generation with Hugging Face](./samples/02-hf-diffusion-first-generation.ipynb)
+  - [03- Running Flux on HF](./samples/03-diffusers-flux-quickstart.ipynb)
+  - 04 - Using Replicate.
+
+## Preparation (Between classes)
+
+- Read the core notes in order (01→06)
+- Read article [How does Stable Diffusion work?](https://stable-diffusion-art.com/how-stable-diffusion-work/)
+- Find 3 reference images (style, subject, composition) for prompt testing
 
 ## Going Further
 
-- [Further reading or related resource 1](#)
-- [Further reading or related resource 2](#)
-- [Further reading or related resource 3](#)
+- [Kittl: AI Image Generation Guide (pipeline + sampling overview)](https://www.kittl.com/blogs/ai-image-generation-guide-ais/)
+- [Mozilla Future Guide: Image Models](https://ai-guide.future.mozilla.org/content/image-models/)
+- [Video explainer: model families and generation paradigms](https://www.youtube.com/watch?v=jP2WXIZy6WE)
+- [ImgGen: 2026 model landscape overview](https://www.imggen.org/blog/model2026)
 
 ## Tools
 
-- [Tool 1](#)
-- [Tool 2](#)
-- [Tool 3](#)
+- [Flux](https://blackforestlabs.ai/)
+- [Midjourney](https://www.midjourney.com/)
+- [Stable Diffusion](https://stability.ai/)
+- [ComfyUI](https://www.comfy.org/)
+- [Google Colab](https://colab.research.google.com/)
+- [Hugging Face](https://huggingface.co/)
