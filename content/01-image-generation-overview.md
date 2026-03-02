@@ -1,9 +1,9 @@
 ---
-title: "Image Generation Overview"
+title: "01 - Image Generation Overview"
 draft: false
 ---
 
-# Image Generation Overview
+# 01 - Image Generation Overview
 
 ## Intro
 

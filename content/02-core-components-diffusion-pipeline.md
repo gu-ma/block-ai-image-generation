@@ -1,9 +1,9 @@
 ---
-title: "Core Components: Diffusion Pipeline"
+title: "02 - Core Components: Diffusion Pipeline"
 draft: false
 ---
 
-# Core Components: Diffusion Pipeline
+# 02 - Core Components: Diffusion Pipeline
 
 Modern image generation is more than “just diffusion.” A practical pipeline includes text understanding, latent-space processing, iterative denoising, and image decoding.
 

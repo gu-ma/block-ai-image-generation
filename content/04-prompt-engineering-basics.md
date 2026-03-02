@@ -1,9 +1,9 @@
 ---
-title: "Prompt Engineering Basics"
+title: "04 - Prompt Engineering Basics"
 draft: false
 ---
 
-# Prompt Engineering Basics
+# 04 - Prompt Engineering Basics
 
 Prompting is not magic wording: it is structured direction for composition, style, and detail.
 

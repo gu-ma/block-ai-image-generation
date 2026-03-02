@@ -1,9 +1,9 @@
 ---
-title: "Practical Tools, Ethics, and Iterative Practice"
+title: "06 - Practical Tools, Ethics, and Iterative Practice"
 draft: false
 ---
 
-# Practical Tools, Ethics, and Iterative Practice
+# 06 - Practical Tools, Ethics, and Iterative Practice
 
 ## Current Tool Landscape (2026)
 

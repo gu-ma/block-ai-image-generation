@@ -1,9 +1,9 @@
 ---
-title: "Alternatives to Diffusion"
+title: "03 - Alternatives to Diffusion"
 draft: false
 ---
 
-# Alternatives to Diffusion
+# 03 - Alternatives to Diffusion
 
 Diffusion dominates image generation quality in 2026, especially for photorealistic output. But it is not the only approach.
 

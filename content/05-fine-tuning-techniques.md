@@ -1,9 +1,9 @@
 ---
-title: "Fine-Tuning Techniques"
+title: "05 - Fine-Tuning Techniques"
 draft: false
 ---
 
-# Fine-Tuning Techniques
+# 05 - Fine-Tuning Techniques
 
 Base models are powerful, but production workflows often require custom adaptation for style, identity, or controllability.
 
